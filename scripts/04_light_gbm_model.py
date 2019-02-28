@@ -4,8 +4,8 @@ from pyspark.sql import functions as f
 from pyspark.sql.window import Window
 from mmlspark import LightGBMClassifier
 
-DIR_DATA_PARQUET = ".data/parquet/"
-DIR_DATA_CSV = ".data/csv/"
+DIR_DATA_PARQUET = "./data/parquet/"
+DIR_DATA_CSV = "./data/csv/"
 
 if __name__ == "__main__":
 

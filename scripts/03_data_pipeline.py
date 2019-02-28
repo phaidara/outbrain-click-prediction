@@ -3,7 +3,7 @@ from pyspark.sql import functions as f
 from pyspark.ml.feature import OneHotEncoder, StringIndexer, VectorAssembler, ChiSqSelector, Imputer
 from pyspark.ml import Pipeline
 
-DIR_DATA_PARQUET = ".data/parquet/"
+DIR_DATA_PARQUET = "./data/parquet/"
 
 if __name__ == "__main__":
 
